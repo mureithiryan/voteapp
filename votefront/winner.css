@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.winner {
+    text-align: center;
+    margin-top: 50px; /* Adjust margin as needed */
+}
+
+/* Styles for the winner heading */
+.winner h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Styles for the candidate image container */
+.candidate-image {
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+/* Styles for the candidate image */
+.candidate-image img {
+    width: 150px; /* Adjust width as needed */
+    height: 150px; /* Adjust height as needed */
+    border-radius: 50%; /* Make the image round */
+}

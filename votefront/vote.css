@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the start (left) */
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px; /* Space between h1 and the form */
+}
+
+.candidates {
+    display: flex;
+}
+
+.candidate-image {
+    margin-right: 20px; /* Adjust spacing between candidates */
+}
+
+.candidate-image img {
+    width: 150px; /* Adjust this value as needed */
+    height: 150px; /* Adjust this value as needed */
+    border-radius: 50%;
+}
+
+.candidate-image input[type="checkbox"] {
+    margin-top: 10px; /* Adjust spacing between checkbox and image */
+}
+
+.candidate-image label {
+    display: block;
+}
